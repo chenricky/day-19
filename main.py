@@ -34,8 +34,10 @@ def move_clockwise():
     tim.write("L")
 
 def _move_turtle_home():
-    tim.pencolor("white")
+    tim.penup()
+    tim.clear()
     tim.home()
+    tim.pendown()
 
 
 
